@@ -1,0 +1,160 @@
+body { /*estilo do body*/
+
+    padding: 0; /*define o espaço entre os elementos e a borda em 0*/
+
+    margin: 0; /*define a area das 4 margens em 0*/
+
+    background-color: #232324;  /*define a cor do background da pagina em cinza escuro*/
+
+}
+
+#login { /*estilo do texto "Faça seu Login*/
+
+    display: flex; /*os elementos se comportam de maneira flexivel para evitar o transbordamento*/
+
+    align-items: center; /*alinha os itens ao centro*/
+
+    justify-content: center; /*justificado no centro*/
+
+    height: 95vh; /*altura de 95% da view height*/
+
+    font-family: 'Courier', 'Times New Roman', serif; /*define as fontes a serem usadas*/
+    
+
+}
+
+.card { /*estilo do card*/
+
+    background-color: rgba(43, 43, 43, 0.3); /*define a cor*/
+
+    padding: 40px; /*define a distancia entre os elementos e a margem*/
+
+    border-radius: 10px; /*determina o radius da borda*/
+
+    width:225px; /*largura de 225pixels*/
+
+}
+
+.card-header { /*estilo do cabeçalho do card*/
+
+    padding-bottom: 50px; /*distancia entre o elemento e a borda de baixo em 50px*/
+
+    opacity: 0.8; /*opacidade em 80%*/
+
+    color: #fff; /*cor branca*/
+
+}
+
+.card-header::after { /*estilo do pseudo-elemento, o último do card cabeçalho*/
+
+    content: "-----------"; /*conteudo traços abaixo do traçado*/
+
+    width: 110px; /*largura do traçado*/
+
+    height: 2px; /*altura do traçado*/
+
+    background-color: #716f6f; /*cor do background em cinza*/
+
+    display: block; /**/
+
+    margin-top: -17px; /*margem superior em -17*/
+
+    margin-left: -5px; /*margem esquerda em -5*/
+
+}
+
+.card-content label { /*estilo das etiquetas das boxes*/
+
+    color: #fff; /*cor das letras*/
+
+    font-size: 19px; /*tamanho da fonte em 19*/
+
+    opacity: 0.8; /*opacidade em 80%*/
+
+    font-weight: light; /*peso da fonte em light*/
+
+}
+
+.card-content-area { /*estilo da content area do card*/
+
+    display: flex; /*os elementos se comportam de maneira flexivel para evitar o transbordamento*/
+
+    flex-direction: column; /*flexibilidade de direção dos elementos é na vertical em ordem crescente*/
+
+    padding:20px 0; /*a distancia entre elemento e borda é de 20px na vertical e 0 na horizontal*/
+
+}
+
+.card-content-area input { /*estilo do card de input de dados*/
+
+    margin-top: 10px; /*espaço entre a linha e a etiqueta*/
+
+    padding: 0 30px; /*distancia entre elemento e a margem*/
+
+    background-color: transparent; /*cor de fundo transparente nas caixas de input de dados*/
+
+    border: none; /*sem borda*/
+
+    border-bottom: 2px solid #ffffff; /*espessura e cor da linha da caixa de input*/
+
+    outline: none; /**/
+
+    color: #fff; /*cor da letra do input*/
+
+    font-family: 'Courier', 'Times New Roman', serif; /*tipo da letra do input*/
+
+}
+
+.card-footer { /**/
+
+    display: flex; /*os elementos se comportam de maneira flexivel para evitar o transbordamento*/
+
+    flex-direction: column;  /*flexibilidade de direção dos elementos é na vertical em ordem crescente*/
+
+    justify-content: center;  /*conteudo justificado ao centro*/
+
+}
+
+.card-footer .submit{  /*estilo do botão*/
+
+    width: 100%; /*largura em 100%*/
+
+    height: 45px; /*altura do botão*/
+
+    background-color: #2c5e26; /*cor do botão*/
+
+    border: 3px color green; /*cor da borda*/
+
+    color:#ffffff;  /*cor da fonte*/
+
+    margin: 10px 0;  /*margem 10 e 0*/
+
+    font-family: 'Courier';  /*fonte courier*/
+
+    font-size: 16px; /*tamanho 16*/
+
+    font-weight: bold;  /*em negrito*/
+
+}
+
+.card-footer .submit:hover { /*estilo do botão ao passar o mouse*/
+    
+    text-decoration:underline; /*adiciona underscore ao texto LOGAR*/
+
+}
+
+.card-footer a {  /*estilo do rodapé do card*/
+
+    text-align: center;  /*alinhamento do texto centralizado*/
+
+    font-size: 14px;  /*tamanho*/
+
+    opacity: 0.75;  /*opacidade*/
+
+    color: #d7c4f8;  /*cor da fonte*/
+
+    text-decoration: none;  /*sem decoração da letra*/
+
+    font-weight: light;  /*peso da fonte em leve*/
+
+}

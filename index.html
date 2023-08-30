@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">                                 <!--Informação da linguagem do conteúdo-->
+
+    <head>                                          <!--Informa o início do cabeçalho-->
+        <meta charset="UTF-8">                      <!--Cabeçalho informando o conjunto de caracteres UTF-8-->
+        <title>Login</title>                        <!--Título que aparece na aba do navegador-->
+        <link rel="stylesheet" href="style.css">    <!--Informa que terá folha de estilo com o nome style.css-->
+    </head>
+
+    <body>                                          <!--Informa início do corpo do código-->
+        
+        <div id="login">                            <!--Abre uma divisão/container e atribui valor de "login" a id que será usada no css-->
+
+            <form class="card">                     <!--Atribui uma class "card"-->
+                
+                <div class="card-header">           <!--Abre uma div na class e a chama de "card-header"-->
+                    
+                    <h1 title="Faça seu login!!!"><font face="Courier">     <!--Cabeçalho de tamanho1, com letra "Courier" estilo jogo 8bits, com explicação de "faça seu login"-->
+                        Faça o seu Login
+                    </font></h1>                    <!--Fechamento do cabeçalho-->
+                
+                </div>                              <!--Fechamento da div da class card-header-->
+                
+                <div class="card-content">          <!--Abre uma div na class e a chama de "card-content"-->
+
+                    <div class="card-content-area"> <!--Abre uma div na class e a chama de "card-content-area" para o email-->
+                        <font face="Courier">       <!--Fonte Courier-->
+
+                        <label for="email" title="insira seu e-mail">       <!--Insere uma etiqueta para a caixa de texto que virá depois-->
+                            E-mail:
+                        </label>
+
+                        <input type="text" id="email" autocomplete="off">   <!--Caixa de texto que irá capturar o e-mail e tem id"email"-->
+                        
+
+                    </div>
+                    
+                    <div class="card-content-area">  <!--Abre a div na class e a chamada de "card-content-area" para a senha-->
+
+                        <label for="senha" title="insira sua senha">        <!--Insere uma etiqueta para a caixa de texto que virá depois-->
+                            Senha:
+                        </label>
+
+                        <input type="text" id="senha" autocomplete="off">   <!--Caixa de texto que irá capturar a senha e tem id"senha"-->
+                        
+                    </div>
+                    <br /><br />            <!--Quebra de Linha para deixar mais agradável-->
+                    <div class="card-footer">                               <!--Abre uma div na class e a chama de "card-footer" para logar, recuperar senha e criar user-->
+
+                        <button type="submit" class="submit" title="enviar seus dados" style="color:rgb(255, 255, 255); font: Courier">Logar</button>                       <!--Cria um botão de logar-->
+                        
+                        <a href="#" class="recuperar_senha" title="esqueceu sua senha ou email? Clique aqui" style="color:rgb(233, 240, 134)"> Esqueceu a senha?</a><br />  <!--Cria um hiperlink para recuperar a senha-->
+                        
+                        <a href="#" class="novo_user" title="ainda não é cadastrado? Clique aqui" style="color:rgb(19, 173, 42)""> Ainda não tenho LOGIN</a>                <!--Cria um hiperlink para criar usuario-->
+                        
+                    </font>
+                    </div>
+                </div>
+    </body>
+</html>
